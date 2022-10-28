@@ -13,7 +13,7 @@
   
   
   <meta name="author" content="空罐头">
-  <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="https://gitee.com/xizhuang/reai/raw/master/image/icotubiaologo/matilo.jpeg" type="image/png" sizes="16x16">
   <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png" sizes="180x180">
   <meta rel="mask-icon" href="/images/icons/stun-logo.svg" color="#333333">
@@ -88,7 +88,7 @@
         enable: true
       },
       daovoice: {
-        enable: false
+        enable: true
       },
       preview: {
         background: {
@@ -183,7 +183,7 @@
         <a href="/about/ " class="underline "> 关于</a>
       </li></ul>
     
-      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://xizhuang.gitee.io/reai/ydongtai.html">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://xizhuang.gitee.io/reai/ydongtai.html">Hexo</a>  |  Theme - <a target="_blank" href="https://xizhuang.gitee.io/reai/20221023wenzhangshouye/daohang.html">zhaoo</a></p></div>
     
   </div>
 </nav>
@@ -271,7 +271,7 @@
           <i class="iconfont  iconmail"></i>
       </a></div>
   
-    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://xizhuang.gitee.io/reai/ydongtai.html">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://xizhuang.gitee.io/reai/ydongtai.html">Hexo</a>  |  Theme - <a target="_blank" href="https://xizhuang.gitee.io/reai/20221023wenzhangshouye/daohang.html">zhaoo</a></p></div>
   
 </footer>
   
@@ -279,6 +279,10 @@
     <i class="iconfont iconplus"></i>
   </div>
   
+  
+    <div class="fab fab-daovoice">
+      <i class="iconfont iconcomment"></i>
+    </div>
   
   
   <div class="fab fab-up">
@@ -402,6 +406,30 @@
 </script>
 
 
+
+  
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i["DaoVoiceObject"] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    a.charset = "utf-8";
+    m.parentNode.insertBefore(a, m)
+  })(window, document, "script", "https://widget.daovoice.io/widget/0f81ff2f.js", "daovoice")
+  daovoice('init', {
+    app_id: "f8ddc9d3"
+  }, {
+    launcher: {
+      disableLauncherIcon: true,
+    },
+  });
+  daovoice('update');
+</script>
 
 
 
