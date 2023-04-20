@@ -1902,7 +1902,7 @@ mark {
 
 .bg-color {
     /* background-image: linear-gradient(to right, #fda706 0%, #f1e8f7 100%); */
-         background-image: linear-gradient(to right, #fda706 0%, #f1e8f7 100%);
+         background-image: linear-gradient(to right, #e3e7f8 0%, #f1e8f7 100%);
         opacity: 1.7;
 
 }
