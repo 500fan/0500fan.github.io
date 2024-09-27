@@ -610,8 +610,6 @@
 <style>
     .aplayer .aplayer-lrc p {
         
-        display: none;
-        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
@@ -619,19 +617,8 @@
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
         
-        display: none;
-        
         font-size: 15px;
         color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
     }
 
     
@@ -2468,65 +2455,48 @@ head.appendChild(script);
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/07/22/%E6%B7%98%E5%AE%9D%E5%BA%97/">
+                <a href="/2018/09/07/%E7%AC%94%E8%AE%B0/">
                     <div class="card-image">
                         
-                        <img src="/medias/banner/shuil.jpg" class="responsive-img" alt="糖果控">
+                        <img src="/images/0.jpeg" class="responsive-img" alt="typora-vue-theme主题介绍">
                         
-                        <span class="card-title">糖果控</span>
+                        <span class="card-title">typora-vue-theme主题介绍</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            欢迎光临
+                            这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-07-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/categories/" class="post-category">
-                                    categories
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%B7%98%E5%AE%9D%E5%BA%97%E9%93%BA%E5%8D%96%E5%AE%B6/">
-                        <span class="chip bg-color">淘宝店铺卖家</span>
+                    <a href="/tags/Typora/">
+                        <span class="chip bg-color">Typora</span>
                     </a>
                     
-                    <a href="/tags/%E7%9B%B8%E5%86%8C/">
-                        <span class="chip bg-color">相册</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%86%85%E9%83%A8%E7%BE%A4/">
-                        <span class="chip bg-color">内部群</span>
-                    </a>
-                    
-                    <a href="/tags/03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4/">
-                        <span class="chip bg-color">03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4</span>
-                    </a>
-                    
-                    <a href="/tags/1234/">
-                        <span class="chip bg-color">1234</span>
-                    </a>
-                    
-                    <a href="/tags/SHA256/">
-                        <span class="chip bg-color">SHA256</span>
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
                     </a>
                     
                 </div>
@@ -2705,7 +2675,46 @@ head.appendChild(script);
 
     <footer class="page-footer bg-color">
     
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
         
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/"></script>
+
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
 
@@ -2714,7 +2723,7 @@ head.appendChild(script);
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2023</span>
+                <span id="year">2019-2024</span>
             
             <span id="year">2019</span>
             <a href="/about" target="_blank"><i id="heartbeat" class="fa fas fa-heartbeat"></i>500饭<i id="heartbeat" class="fa fas fa-heartbeat"></i></a>

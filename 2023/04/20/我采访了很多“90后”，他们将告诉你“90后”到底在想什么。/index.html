@@ -610,8 +610,6 @@
 <style>
     .aplayer .aplayer-lrc p {
         
-        display: none;
-        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
@@ -619,19 +617,8 @@
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
         
-        display: none;
-        
         font-size: 15px;
         color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
     }
 
     
@@ -2487,12 +2474,13 @@ head.appendChild(script);
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/04/20/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E7%B2%BE%E5%BD%A9%E8%B6%8A%E9%9A%BE%E6%9C%89%E5%8F%91%E8%87%AA%E5%86%85%E5%BF%83%E7%9A%84%E5%BF%AB%E4%B9%90%EF%BC%9F/">
+                <a href="/2023/04/20/%E5%8F%8A%E6%97%B6%E7%9A%84%E8%89%AF%E8%8D%AF%E4%BA%92%E5%8A%A8/">
                     <div class="card-image">
                         
-                        <img src="/medias/banner/zhangyu.jpg" class="responsive-img" alt="为什么越精彩越难有发自内心的快乐？">
                         
-                        <span class="card-title">为什么越精彩越难有发自内心的快乐？</span>
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="及时的良药">
+                        
+                        <span class="card-title">及时的良药</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -2516,16 +2504,28 @@ head.appendChild(script);
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/https-www-zhihu-com-question-30708561-answer-51903380/">
-                        <span class="chip bg-color">https://www.zhihu.com/question/30708561/answer/51903380</span>
+                    <a href="/tags/%E5%9B%BE/">
+                        <span class="chip bg-color">图</span>
                     </a>
                     
-                    <a href="/tags/%E6%83%B3%E4%B8%8D%E5%BC%80%EF%BC%8C%E6%89%A7%E8%BF%B7%E4%B8%8D%E6%82%9F%EF%BC%8C%E5%9B%A0%E7%A5%B8%E5%BE%97%E7%A6%8F%EF%BC%8C%E5%BC%80%E5%BC%80%E7%AA%8D%EF%BC%8C%E5%90%AF%E8%8C%85%E5%A1%9E/">
-                        <span class="chip bg-color">想不开，执迷不悟，因祸得福，开开窍，启茅塞</span>
+                    <a href="/tags/%E5%8C%BB%E7%96%97%E4%BA%92%E5%8A%A8/">
+                        <span class="chip bg-color">医疗互动</span>
                     </a>
                     
-                    <a href="/tags/%E7%B2%BE%E5%BD%A9%E5%90%8E/">
-                        <span class="chip bg-color">精彩后</span>
+                    <a href="/tags/%E9%9F%B3%E4%B9%90/">
+                        <span class="chip bg-color">音乐</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%A5%BD%E7%89%A9%E7%A7%8D%E8%8D%89/">
+                        <span class="chip bg-color">好物种草</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%94%B5%E5%BD%B1%E5%89%A7%E5%9C%BA/">
+                        <span class="chip bg-color">电影剧场</span>
+                    </a>
+                    
+                    <a href="/tags/%E9%A5%AE%E9%A3%9F/">
+                        <span class="chip bg-color">饮食</span>
                     </a>
                     
                 </div>
@@ -2697,7 +2697,46 @@ head.appendChild(script);
 
     <footer class="page-footer bg-color">
     
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
         
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/"></script>
+
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
 
@@ -2706,7 +2745,7 @@ head.appendChild(script);
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2023</span>
+                <span id="year">2019-2024</span>
             
             <span id="year">2019</span>
             <a href="/about" target="_blank"><i id="heartbeat" class="fa fas fa-heartbeat"></i>500饭<i id="heartbeat" class="fa fas fa-heartbeat"></i></a>

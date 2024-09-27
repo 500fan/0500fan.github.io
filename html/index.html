@@ -480,8 +480,6 @@
 <style>
     .aplayer .aplayer-lrc p {
         
-        display: none;
-        
         font-size: 12px;
         font-weight: 700;
         line-height: 16px !important;
@@ -489,19 +487,8 @@
 
     .aplayer .aplayer-lrc p.aplayer-lrc-current {
         
-        display: none;
-        
         font-size: 15px;
         color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
     }
 
     
@@ -1290,7 +1277,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2023-04-20
+                    2024-09-26
                 </div>
                 
 
@@ -1790,7 +1777,7 @@
         repo: '500fan.github.io',
         owner: '500fan',
         admin: "shuwanzhi",
-        id: '2023-04-20T06-01-08',
+        id: '2024-09-26T20-55-53',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1813,7 +1800,7 @@
 <script src="/libs/gitment/gitment.js"></script>
 <script>
 var gitment = new Gitment({
-    id: 'Thu Apr 20 2023 06:01:08 GMT+0800',
+    id: 'Thu Sep 26 2024 20:55:53 GMT+0800',
     owner: '500fan',
     repo: '500fan.github.io',
     oauth: {
@@ -2492,7 +2479,7 @@ head.appendChild(script);
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-26
                             </span>
                         <span class="publish-author">
                             
@@ -2530,7 +2517,7 @@ head.appendChild(script);
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-04-20
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-09-26
                             </span>
                         <span class="publish-author">
                             
@@ -2709,7 +2696,46 @@ head.appendChild(script);
 
     <footer class="page-footer bg-color">
     
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
         
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/"></script>
+
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/images@master/others/heartbeat.min.css">
 
@@ -2718,7 +2744,7 @@ head.appendChild(script);
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2023</span>
+                <span id="year">2019-2024</span>
             
             <span id="year">2019</span>
             <a href="/about" target="_blank"><i id="heartbeat" class="fa fas fa-heartbeat"></i>500饭<i id="heartbeat" class="fa fas fa-heartbeat"></i></a>
